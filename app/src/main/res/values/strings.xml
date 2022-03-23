@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">CalculatorTax</string>
     <string name="appName">Налоговый калькулятор</string>
-    <string name="income">Введите вашу сумму дохода по НДФЛ до вычета налога:</string>
+    <string name="income">Введите вашу сумму дохода до вычета всех налогов:</string>
     <string name="okButton">Принять</string>
     <string name="cancelButton">Отмена</string>
     <string name="ndfl">Ваш подоходный налог:</string>
