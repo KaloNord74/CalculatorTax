@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">CalculatorTax</string>
+    <string name="appName">Налоговый калькулятор</string>
+    <string name="income">Введите вашу сумму дохода по НДФЛ до вычета налога:</string>
+    <string name="okButton">Принять</string>
+    <string name="cancelButton">Отмена</string>
+    <string name="ndfl">Ваш подоходный налог:</string>
+    <string name="oms">Ваши отчисления на медицинское страхование:</string>
+    <string name="pension">Ваши отчисления на пенсионное страхование:</string>
+    <string name="social">Ваши отчисления на обязательное социальное страхование в случае временной нетрудоспособности и в связи с материнством:</string>
+
+</resources>
