@@ -24,6 +24,7 @@ public class MainActivity extends AppCompatActivity {
         TextView oms = (TextView) findViewById(R.id.oms);
         TextView pension = (TextView) findViewById(R.id.pension);
         TextView social = (TextView) findViewById(R.id.social);
+        TextView zp = (TextView) findViewById(R.id.zp);
 
         cancelButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -40,6 +41,7 @@ public class MainActivity extends AppCompatActivity {
                 oms.setText("Ваши отчисления на медицинское страхование: " + numberField / 100 * 5.1);
                 pension.setText("Ваши отчисления на пенсионное страхование: " + numberField / 100 * 22);
                 social.setText("Ваши отчисления на обязательное социальное страхование в случае временной нетрудоспособности и в связи с материнством: " + numberField / 100 * 2.9);
+                zp.setText("Ваша заработная плата после всех вычетов: " + (numberField - ((numberField / 100 * 13) + (numberField / 100 * 5.1) + (numberField / 100 * 22))));
             }
         });
 
