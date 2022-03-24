@@ -37,11 +37,11 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 numberField = Integer.parseInt(editIncome.getText().toString());
-                ndfl.setText("Ваш подоходный налог: " + numberField / 100 * 13);
-                oms.setText("Ваши отчисления на медицинское страхование: " + numberField / 100 * 5.1);
-                pension.setText("Ваши отчисления на пенсионное страхование: " + numberField / 100 * 22);
-                social.setText("Ваши отчисления на обязательное социальное страхование в случае временной нетрудоспособности и в связи с материнством: " + numberField / 100 * 2.9);
-                zp.setText("Ваша заработная плата после всех вычетов: " + (numberField - ((numberField / 100 * 13) + (numberField / 100 * 5.1) + (numberField / 100 * 22))));
+                ndfl.setText("Ваш подоходный налог: " + numberField / 100 * 13 + " р");
+                oms.setText("Ваши отчисления на медицинское страхование: " + numberField / 100 * 5.1 + " р");
+                pension.setText("Ваши отчисления на пенсионное страхование: " + numberField / 100 * 22 + " р");
+                social.setText("Ваши отчисления на обязательное социальное страхование в случае временной нетрудоспособности и в связи с материнством: " + numberField / 100 * 2.9 + " р");
+                zp.setText("Ваша заработная плата после всех вычетов: " + (numberField - ((numberField / 100 * 13) + (numberField / 100 * 5.1) + (numberField / 100 * 22))) + " р");
             }
         });
 
